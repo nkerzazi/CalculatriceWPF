@@ -34,9 +34,9 @@
             <Button Content="x2" />
             <Button Content="2vx" />
             <Button Content="/" />
-            <Button Content="7" />
-            <Button Content="8" />
-            <Button Content="9" />
+            <Button x:Name="btn7" Content="7" />
+            <Button x:Name="btn8" Content="8" />
+            <Button x:Name="btn9" Content="9" />
             <Button Content="*" />
             <Button Content="4" />
             <Button Content="5" />
