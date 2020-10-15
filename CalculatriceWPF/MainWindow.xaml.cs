@@ -24,5 +24,12 @@ namespace CalculatriceWPF
         {
             InitializeComponent();
         }
+
+        private void bouttonChiffre_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            txt_Resultat.Content += b.Content.ToString();
+            
+        }
     }
 }

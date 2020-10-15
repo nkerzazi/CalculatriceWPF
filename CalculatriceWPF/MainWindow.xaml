@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculatriceWPF"
         mc:Ignorable="d"
-        Title="Calculatrice" Height="540" Width="380">
+        Title="Calculatrice" Height="540" Width="380" Background="#FFE6E6E6">
     <StackPanel>
         <Label x:Name="txt_Resultat" Margin="10" Content="0" FontSize="30" FontWeight="Bold" Background="#FFDAD0D0"/>
         <Grid>
@@ -33,26 +33,26 @@
             <Button Content="1/x" />
             <Button Content="x2" />
             <Button Content="2vx" />
-            <Button Content="/" />
-            <Button x:Name="btn7" Content="7" />
-            <Button x:Name="btn8" Content="8" />
-            <Button x:Name="btn9" Content="9" />
-            <Button Content="*" />
-            <Button Content="4" />
-            <Button Content="5" />
-            <Button Content="6" />
-            <Button Content="-" />
-            <Button Content="1" />
-            <Button Content="2"/>
-            <Button Content="3"/>
-            <Button Content="+" />
-            <Button Content="+/-" />
-            <Button Content="0" />
-            <Button Content="," />
-            <Button Content="=" />
-            
+            <Button Content="/" FontSize="24" Margin="1" Background="#FFF0F0F0"/>
+            <Button x:Name="btn7" Content="7" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn8" Content="8" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn9" Content="9" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="*" FontSize="24" Margin="1" Background="#FFF0F0F0"/>
+            <Button Content="4" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="5" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="6" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="-" FontSize="24" Margin="1" Background="#FFF0F0F0"/>
+            <Button Content="1" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="2" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="3" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="+" FontSize="24" Margin="1" Background="#FFF0F0F0"/>
+            <Button Content="+/-" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" />
+            <Button Content="0" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
+            <Button Content="," FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1"/>
+            <Button Content="=" FontWeight="Bold" FontSize="24" Margin="1" Background="#FF8ABAE0" BorderThickness="0"/>
+
 
         </UniformGrid>
     </StackPanel>
-    
+
 </Window>
