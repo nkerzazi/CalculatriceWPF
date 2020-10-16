@@ -8,7 +8,7 @@
         Title="Calculatrice" Height="540" Width="380" Background="#FFE6E6E6">
     <StackPanel>
         <Label x:Name="labelCurrentOperation" Margin="0" Content="" FontSize="24" BorderThickness="0" HorizontalAlignment="Right"/>
-        <TextBox x:Name="txt_Resultat" Text="0" Margin="10" FontSize="30" FontWeight="Bold" Background="#FFDAD0D0"/> 
+        <TextBox x:Name="txt_Resultat" Text="0" Margin="10" FontSize="30" FontWeight="Bold" BorderThickness="0"  Background="#FF0CCBF0"/> 
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
