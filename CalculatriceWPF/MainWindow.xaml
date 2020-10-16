@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Calculatrice" Height="540" Width="380" Background="#FFE6E6E6">
     <StackPanel>
-        <Label x:Name="labelCurrentOperation" Margin="0" Content="" FontSize="24" BorderThickness="0" HorizontalAlignment="Right"/>
+        <Label x:Name="labelCurrentOperation" Margin="0" Content="" FontSize="16" BorderThickness="0" HorizontalAlignment="Right"/>
         <TextBox x:Name="txt_Resultat" Text="0" Margin="10" FontSize="30" FontWeight="Bold" BorderThickness="0"  Background="#FF0CCBF0"/> 
         <Grid>
             <Grid.ColumnDefinitions>
@@ -34,23 +34,23 @@
             <Button Content="1/x" />
             <Button Content="x2" />
             <Button Content="2vx" />
-            <Button x:Name="diviser" Content="/" FontSize="24" Margin="1" Background="#FFF0F0F0" Click="Operateur_Click"/>
-            <Button x:Name="btn7" Content="7" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
-            <Button x:Name="btn8" Content="8" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button x:Name="btn9" Content="9" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button x:Name="multiplier" Content="*" FontSize="24" Margin="1" Background="#FFF0F0F0" Click="Operateur_Click"/>
-            <Button Content="4" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button Content="5" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button Content="6" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button x:Name="moins" Content="-" FontSize="24" Margin="1" Background="#FFF0F0F0" Click="Operateur_Click"/>
-            <Button Content="1" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button Content="2" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button Content="3" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button x:Name="plus" Content="+" FontSize="24" Margin="1" Background="#FFF0F0F0" Click="Operateur_Click"/>
+            <Button x:Name="diviser" Content="/"    FontSize="24" Margin="1" Background="#FFF0F0F0" BorderThickness="0" Click="Operateur_Click"/>
+            <Button x:Name="btn7" Content="7"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn8" Content="8"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn9" Content="9"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="multiplier" Content="*" FontSize="24" Margin="1" Background="#FFF0F0F0" BorderThickness="0"  Click="Operateur_Click"/>
+            <Button x:Name="btn4" Content="4"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn5" Content="5"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn6" Content="6"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="moins" Content="-"      FontSize="24" Margin="1" Background="#FFF0F0F0" BorderThickness="0" Click="Operateur_Click"/>
+            <Button x:Name="btn1" Content="1"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn2" Content="2"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btn3" Content="3"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="plus" Content="+"       FontSize="24" Margin="1" Background="#FFF0F0F0" BorderThickness="0" Click="Operateur_Click"/>
             <Button x:Name="btn_InvSigne" Content="+/-" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="btn_InvSigne_Click" />
-            <Button Content="0" FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button Content="," FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Margin="1" Click="bouttonChiffre_Click"/>
-            <Button x:Name="egale" Content="=" FontWeight="Bold" FontSize="24" Margin="1" Background="#FF8ABAE0" BorderThickness="0" Click="egale_Click"/>
+            <Button x:Name="btn0" Content="0"       FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="btnvirg" Content=","    FontWeight="Bold" FontSize="24" Background="#FFFAFAFA" BorderThickness="0" Click="bouttonChiffre_Click"/>
+            <Button x:Name="egale" Content="="      FontWeight="Bold" FontSize="24" Margin="1" Background="#FF8ABAE0" BorderThickness="0" Click="egale_Click"/>
 
 
         </UniformGrid>
